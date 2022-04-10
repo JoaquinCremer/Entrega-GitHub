@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="img/favicon.png">
+    <link rel="stylesheet" href="../css/style.css">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Fredoka:wght@400;500;600&family=Montserrat:wght@400;700;900&family=Ubuntu:wght@300;400;500;700&display=swap"
+        rel="stylesheet">
+    <title>Document</title>
+</head>
+
+<body>
+    <header class="navBackground">
+        <img class="logoHeader" src="../img/logoCatedral.svg" alt="Logo Cerro Catedral">
+        <nav>
+
+            <ul class="nav__list">
+                <li class="nav__item"><a href="../index.html">Inicio</a></li>
+                <li class="nav__item"><a href="multimedia.html">Multimedia</a></li>
+                <li class="nav__item"><a href="tarifario.html">Tarifario</a></li>
+                <li class="nav__item"><a href="informacion.html">Información</a></li>
+                <li class="nav__item"><a href="contacto.html">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+    <section class="contenedorContacto">
+        <h1 class="form__title">Contacto</h1>
+        <form action="" class="contenedorForm">
+
+            <fieldset class="form">
+
+                <div id="nombre">
+                    <div>
+                        <label for="nombre">Nombre: </label>
+                        <input type="text" name="nombre">
+                    </div>
+                    <div>
+                        <label for="apellido">Apellido: </label>
+                        <input type="text" name="apellido">
+                    </div>
+                </div>
+                <div>
+                    <label for="email">E-Mail: </label>
+                    <input type="text" name="mail" id="mail">
+                </div>
+                <div>
+                    <label for="checkbox"> ¿Desea recibir descuentos únicos al mail?</label>
+
+                    <input type="checkbox" name="acepta" value="1">
+                </div>
+                <label for="tema">¿Por qué nos contacta?</label>
+                <select name="tema" id="tema">
+                    <option value="tarifas">Tarifas</option>
+                    <option value="estadia">Estadía</option>
+                    <option value="otra">Otra consulta</option>
+                </select>
+                <br>
+                <label for="mensaje">Mensaje: </label>
+                <br>
+                <textarea name="mensaje" id="mensaje" cols="30" rows="10"></textarea>
+                <div class="form__buttons">
+                    <input type="submit" value="Enviar">
+                    <input type="reset" value="Limpiar formulario">
+
+                </div>
+
+
+            </fieldset>
+
+        </form>
+    </section>
+    <footer class="footer footer__container">
+        <img class="logoFooter" src="../img/logoCatedral.svg" alt="">
+        <div class="logosRedes">
+            <a href="https://www.instagram.com/cerrocatedralok/"> <img src="../img/logoIg.svg" alt="">
+            </a>
+            <a href="https://es-la.facebook.com/CatedralAltaPatagonia/">
+                <img src="../img/logoFace.svg" alt="">
+            </a>
+            <a href="https://twitter.com/cerrocatedralok?lang=es">
+                <img src="../img/logoTw.svg" alt="">
+            </a>
+        </div>
+    </footer>
+</body>
+
+</html>
