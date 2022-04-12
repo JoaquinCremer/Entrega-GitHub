@@ -61,6 +61,7 @@ a {
 
 .nav__item a:hover {
     color: black;
+    transition: 0.2s;
 }
 
 @media (min-width: 768px) {
@@ -108,11 +109,20 @@ h1 {
 
 .hero {
     background-image: url(../img/paisaje.jpg);
+    animation: background-aparece 1s;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
     height: 900px;
+}
+@keyframes background-aparece{
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
 }
 
 .hero__title {
@@ -194,6 +204,11 @@ h3 {
     border-radius: 1rem;
     font-style: italic;
 }
+#info:hover{
+    transition:all 0.5s ease;
+    color: black;
+
+}
 
 
 @media (min-width: 768px) {
@@ -266,8 +281,12 @@ h3 {
 .logosRedes a img {
     width: 5rem;
     padding-left: 2rem;
+    transition: all 0.3s ease;
 }
-
+.logosRedes a img:hover{
+    
+    width: 6rem;
+}
 
 
 .logosRedes {
@@ -352,8 +371,14 @@ h3 {
     font-weight: bold;
     font-family: inherit;
     font-size: 2rem;
-
+    cursor: pointer;
+    transition: all 0.5s ease;
 }
+.form__buttons input:hover{
+    background-color: #ffffff;
+    color: black;
+}
+
 
 /* Termina pagina contacto */
 
@@ -593,7 +618,7 @@ td {
 .informacion__temporada {
     padding-bottom: 2rem;
     text-align: center;
-    background-color: #04a5e4;
+    background: linear-gradient(#04a5e4,#0095d0);
     padding: 1rem;
     border-radius: 1rem;
 }
@@ -616,7 +641,7 @@ td {
 }
 
 .informacion__estadia h2 {
-    font-size: 3rem;
+    font-size: 3.5rem;
     color: #04a5e4;
 }
 
