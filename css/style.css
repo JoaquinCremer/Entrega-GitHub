@@ -84,7 +84,7 @@ h1 {
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
-    height: 900px;
+    height: 100vh;
 }
 @keyframes background-aparece{
     0% {
@@ -231,7 +231,7 @@ h3 {
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
-    height: max-content;
+    height:max-content;
     padding-bottom: 4rem;
 }
 
@@ -494,7 +494,7 @@ td {
     background-repeat: no-repeat;
     background-size: cover;
     height: max-content;
-    height: 500px;
+    height: 100vh;
     animation: background-aparece 0.5s;
 }
 
