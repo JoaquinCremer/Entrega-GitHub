@@ -300,12 +300,12 @@ h3 {
 .encabezadoMultimedia {
     text-align: center;
     padding-top: 3rem;
-    background-image: url(../img/fondomultimedia);
+    background-image: url(../img/fondomultimedia.jpg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
     animation: background-aparece 0.5s;
-    height: 1000px;
+    height: 100vh;
     padding-bottom: 3rem;
 }
 
