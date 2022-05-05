@@ -1,0 +1,28 @@
+/* Css de Header */
+.nav__item a {
+    color: aliceblue;
+
+
+}
+
+.navBackground img {
+    width: 90px;
+}
+
+.navBackground {
+    background: linear-gradient(to left, #04a5e4, #2bc3ff);
+    display: block;
+    text-align: center;
+}
+
+.nav__item {
+    font-size: 2.5rem;
+    padding-bottom: 1rem;
+}
+
+.nav__item a:hover {
+    color: black;
+    transition: 0.2s;
+}
+
+/* Termine CSS Header */

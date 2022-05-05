@@ -1,0 +1,114 @@
+/* Pagina Informacion */
+.informacion__title {
+    text-align: center;
+    padding: 2rem;
+}
+
+.contenedor__informacion {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.contenedor__informacion h2 {
+    font-size: 3rem;
+
+}
+
+.informacion__intro {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 70%;
+    text-align: center;
+    background-color: #04a5e4;
+    color: aliceblue;
+    padding: 2rem;
+    border-radius: 1rem;
+    animation: from-right 1s;
+    
+}
+@keyframes from-right{
+    0%{
+        opacity: 0;
+        transform: translateX(400px);
+    }
+    100% {
+        opacity: 1;
+        transform: translateX(0px);
+    }
+}
+
+.main__informacion {
+    background-image: url(../img/fondoinformacion.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: max-content;
+    height: 100vh;
+    animation: background-aparece 0.5s;
+}
+
+.main__informacion h1 {
+    color: aliceblue;
+    font-weight: bold;
+    margin-bottom: 4rem;
+}
+
+.informacion__contenido h2 {
+    font-size: 3rem;
+    padding-bottom: 1rem;
+}
+
+.informacion__contenido {
+    display: grid;
+    grid-template-columns: auto;
+    grid-template-rows: repeat(4, auto);
+    gap: 10rem;
+    margin: 4rem;
+    color: aliceblue;
+
+}
+
+.informacion__actividades,
+.informacion__competencias,
+.informacion__temporada {
+    padding-bottom: 2rem;
+    text-align: center;
+    background: linear-gradient(#04a5e4,#0095d0);
+    padding: 1rem;
+    border-radius: 1rem;
+}
+
+.informacion__contenido img {
+    padding: 1rem;
+}
+
+.informacion__estadia {
+    margin-bottom: 4rem;
+    margin: 4rem;
+    text-align: center;
+
+}
+
+.informacion__estadia p {
+    color: black;
+
+
+}
+
+.informacion__estadia h2 {
+    font-size: 3.5rem;
+    color: #04a5e4;
+}
+
+.informacion__estadia img {
+    border-radius: 2rem;
+
+}
+
+.contenedor__fotos {
+    display: flex;
+    flex-direction: column;
+}

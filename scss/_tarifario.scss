@@ -1,0 +1,76 @@
+/* Pagina Tarifario */
+.mainTarifario {
+    background-image: url(../img/paisaje.jpg);
+    animation: background-aparece 0.5s;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    height: fit-content;
+}
+
+.tarifario__title {
+    text-align: center;
+}
+
+.contenedor__tabla h2 {
+    font-size: 3rem;
+    padding-top: 3rem;
+    padding-bottom: 2rem;
+    padding-left: 10%;
+    align-self: flex-start;
+}
+
+#tablaTarifario {
+    width: 80%;
+    height: 700px;
+    font-size: 2rem;
+    text-align: center;
+    border-collapse: collapse;
+    margin-top: 3rem;
+    margin-bottom: 5rem;
+
+}
+
+#tablaTarifario tr,
+td {
+    background-color: aliceblue;
+
+
+
+}
+
+#tablaTarifario th {
+    background-color: #04a5e4;
+    color: aliceblue;
+}
+
+
+
+.contenedor__tabla {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.contenedorObservaciones {
+    padding: 5rem;
+}
+
+.contenedorObservaciones h2 {
+    font-size: 3rem;
+
+}
+
+.contenedorObservaciones ul {
+    font-size: 2rem;
+    list-style-type: circle;
+    padding-left: 3rem;
+}
+
+.contenedorObservaciones ul a {
+    font-weight: bold;
+
+}
+
+/* Termina css Tarifario */

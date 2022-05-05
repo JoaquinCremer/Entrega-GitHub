@@ -1,0 +1,37 @@
+/* Footer */
+.footer {
+    background-image: linear-gradient(to bottom, rgba(255, 255, 255, 0),
+            rgba(255, 255, 255, 0.19)), url(../img/imgFooter.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    padding: 5rem;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.logosRedes a img {
+    width: 5rem;
+    padding-left: 2rem;
+    transition: all 0.3s ease;
+}
+.logosRedes a img:hover{
+    
+    width: 6rem;
+}
+
+
+.logosRedes {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.logoFooter {
+    width: 100px;
+
+}
+
+/* Termina footer */

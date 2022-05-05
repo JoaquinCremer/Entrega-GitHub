@@ -1,0 +1,72 @@
+/* Pagina contacto */
+.contenedorContacto {
+    background-image: url(../img/fondocontacto.jpg);
+    animation: background-aparece 0.5s;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    height:max-content;
+    padding-bottom: 4rem;
+}
+
+
+.contenedorForm {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+}
+
+
+
+.form {
+    display: flex;
+    flex-direction: column;
+    width: 60%;
+    position: relative;
+    padding: 2rem;
+    background-color: rgba(4, 165, 228, 0.63);
+    color: aliceblue;
+    font-weight: 400;
+
+}
+
+.form label {
+    font-size: 2.5rem;
+    padding: 2rem;
+}
+
+
+
+
+.form__title {
+    text-align: center;
+    padding: 3rem;
+    color: aliceblue;
+    font-weight: 400;
+}
+
+.form__buttons input {
+    margin-top: 1rem;
+    outline: none;
+    background: none;
+    border: none;
+    background-color: #04a5e4;
+    padding: 1rem;
+    border-radius: 1rem;
+    color: aliceblue;
+    font-weight: bold;
+    font-family: inherit;
+    font-size: 2rem;
+    cursor: pointer;
+    transition: all 0.5s ease;
+}
+.form__buttons input:hover{
+    background-color: #ffffff;
+    color: black;
+}
+
+
+/* Termina pagina contacto */
