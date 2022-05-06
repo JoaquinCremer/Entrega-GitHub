@@ -506,7 +506,7 @@ td {
   flex-direction: column;
 }
 
-@media (min-width: 768px) {
+@media (min-width: 760px) {
   .informacion__contenido {
     display: grid;
     grid-template-columns: repeat(3, auto);
