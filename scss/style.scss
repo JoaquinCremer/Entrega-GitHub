@@ -1,5 +1,6 @@
 @import "maps";
 @import "variables";
+@import "mixins";
 @import "global";
 @import "header";
 @import "index";
@@ -10,7 +11,7 @@
 @import "informacion";
 
 
-@media(min-width:768px) {
+@include mobile{
 
     .informacion__contenido {
         display: grid;
