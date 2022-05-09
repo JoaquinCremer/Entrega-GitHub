@@ -12,6 +12,13 @@
 
 
 @include mobile{
+    #tablaTarifario th{
+        border: none;
+    }
+    #tablaTarifario tr, td{
+        border: none;
+    }
+
 
     .informacion__contenido {
         display: grid;

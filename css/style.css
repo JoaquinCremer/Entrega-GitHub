@@ -397,11 +397,16 @@ h3 {
 #tablaTarifario tr,
 td {
   background-color: aliceblue;
+  border: solid 1px;
 }
 
 #tablaTarifario th {
   background-color: #04a5e4;
   color: aliceblue;
+  padding-left: 5px;
+  padding-right: 5px;
+  border: solid 1px;
+  border-color: black;
 }
 
 .contenedor__tabla {
@@ -537,6 +542,14 @@ td {
 }
 
 @media (min-width: 760px) {
+  #tablaTarifario th {
+    border: none;
+  }
+
+  #tablaTarifario tr, td {
+    border: none;
+  }
+
   .informacion__contenido {
     display: grid;
     grid-template-columns: repeat(3, auto);
