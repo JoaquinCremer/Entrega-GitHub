@@ -38,13 +38,39 @@ a {
   color: aliceblue;
 }
 
-.navBackground img {
-  width: 90px;
+.nav__toggle {
+  background: none;
+  border: none;
+  font-size: 30px;
 }
 
 .navBackground {
   background: linear-gradient(to left, #04a5e4, #2bc3ff);
-  display: block;
+}
+.navBackground img {
+  width: 100px;
+  padding: 1rem;
+}
+.navBackground div {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  text-align: center;
+}
+.navBackground div i {
+  padding-right: 2rem;
+  cursor: pointer;
+}
+
+.nav__list {
+  display: none;
+  transition: 0.5s;
+}
+
+.nav__list--visible {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
   text-align: center;
 }
 
@@ -92,7 +118,7 @@ h1 {
   padding: 6rem 1rem 1rem 4rem;
 }
 .hero__title h1 {
-  font-size: 7rem;
+  font-size: 6rem;
 }
 
 .hero__contenedor {
@@ -621,6 +647,10 @@ td {
 
   .navBackground img {
     width: 130px;
+  }
+
+  .nav__toggle {
+    display: none;
   }
 
   .nav__list {

@@ -5,16 +5,40 @@
 
 }
 
-.navBackground img {
-    width: 90px;
-}
 
+.nav__toggle{
+    background: none;
+    border: none;
+    font-size: 30px;
+}
 .navBackground {
     background: linear-gradient(to left, #04a5e4, #2bc3ff);
-    display: block;
-    text-align: center;
+    img{
+        width: 100px;
+        padding: 1rem;
+    }
+    div{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        text-align: center;
+        i{
+            padding-right: 2rem;
+            cursor: pointer;
+        }
+    }
 }
 
+.nav__list{
+    display: none;
+    transition: 0.5s;
+}
+.nav__list--visible{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
 .nav__item {
     font-size: 2.5rem;
     padding-bottom: 1rem;
