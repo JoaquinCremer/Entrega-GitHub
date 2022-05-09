@@ -88,8 +88,11 @@ h1 {
   }
 }
 .hero__title {
-  text-align: center;
-  padding: 1rem;
+  display: inline-block;
+  padding: 6rem 1rem 1rem 4rem;
+}
+.hero__title h1 {
+  font-size: 7rem;
 }
 
 .hero__contenedor {
@@ -139,6 +142,7 @@ h1 {
   text-align: center;
   margin-top: 7rem;
   margin-bottom: 4rem;
+  margin: 7rem 3rem 4rem 3rem;
 }
 
 .der {
