@@ -128,31 +128,6 @@ h1 {
   gap: 20rem;
 }
 
-.hero__image {
-  width: 40%;
-  margin-top: 3rem;
-}
-
-.tabMapa__title {
-  color: aliceblue;
-  font-size: 2.5rem;
-  font-style: italic;
-  padding-bottom: 1rem;
-}
-
-.hero__tabMapa {
-  background-color: rgba(4, 165, 228, 0.63);
-  width: 200px;
-  height: fit-content;
-  padding: 1rem;
-  text-align: center;
-}
-
-.hero__tabMapa svg {
-  width: 100px;
-  padding-top: 1rem;
-}
-
 .desc {
   position: relative;
   font-style: italic;
@@ -374,6 +349,7 @@ h3 {
 
 .tarifario__title {
   text-align: center;
+  padding: 2rem;
 }
 
 .contenedor__tabla h2 {
