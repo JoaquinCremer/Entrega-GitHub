@@ -501,6 +501,8 @@ td {
 
 .informacion__estadia p {
   color: black;
+  width: 60%;
+  margin: auto;
 }
 
 .informacion__estadia h2 {
@@ -517,7 +519,7 @@ td {
   flex-direction: column;
 }
 
-@media (min-width: 760px) {
+@media (min-width: 768px) {
   #tablaTarifario th {
     border: none;
   }
