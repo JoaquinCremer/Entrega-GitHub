@@ -114,8 +114,8 @@ h1 {
   }
 }
 .hero__title {
-  display: inline-block;
-  padding: 6rem 1rem 1rem 4rem;
+  padding-top: 5rem;
+  text-align: center;
 }
 .hero__title h1 {
   font-size: 6rem;
@@ -371,7 +371,7 @@ h3 {
 .encabezadoMultimedia h1,
 .encabezadoMultimedia p {
   color: aliceblue;
-  font-weight: bold;
+  font-weight: 400;
 }
 
 .encabezadoMultimedia h1 {
@@ -546,7 +546,7 @@ td {
 
 .main__informacion h1 {
   color: aliceblue;
-  font-weight: bold;
+  font-weight: 400;
   margin-bottom: 4rem;
 }
 
