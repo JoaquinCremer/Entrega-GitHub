@@ -17,14 +17,7 @@
 
     
 
-    .contenedor__fotos {
-        display: flex;
-        flex-direction: row;
-        justify-content: center;
-        gap: 5rem;
-
-        margin-top: 2rem;
-    }
+    
     .grid_galeria {
         display: grid;
         grid-template-columns: repeat(3, auto);

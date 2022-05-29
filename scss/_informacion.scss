@@ -168,4 +168,12 @@
         width: 40%;
 
     }
+    .contenedor__fotos {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        gap: 5rem;
+
+        margin-top: 2rem;
+    }
 }
