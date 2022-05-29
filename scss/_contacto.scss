@@ -13,7 +13,7 @@
 
     input{
         border: 1px solid;
-        font-size: 1.5rem;
+        font-size: 2rem;
         padding: 0.5rem;
         margin: 1rem;
     }
@@ -50,6 +50,7 @@
     flex-direction: column;
     select{
         margin-top: 1rem;
+     
     }
 }
 #mail{
@@ -97,16 +98,55 @@
     background-color: #ffffff;
     color: black;
 }
+
+/* Media Queries */
 @include tablet{
     .form{
         width: max-content;
     }
     .nombre{
         flex-direction: row;
+        justify-content: space-between;
     }
     #mail{
         width: calc(100% - 2rem);
     }
+}
+@include desktop{
+    .form{
+        width: 40%;
+    }
+    .contenedorDatos{
+        width: 90%;
+        margin: auto;
+    }
+    input{
+        height: 3.5rem;
+    }
+    .checkbox{
+
+        label{
+            font-size: 3rem;
+        }
+
+        select{
+            height: 3rem;
+            font-size: 2rem;
+        }
+    }
+    .contenedorMensaje{
+        label{
+            font-size: 3rem;
+        }
+        textarea{
+            font-size: 2rem;
+        }
+    }
+   .form__buttons{
+       input{
+           padding: 1rem;
+       }
+   }
 }
 
 /* Termina pagina contacto */

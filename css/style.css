@@ -219,7 +219,7 @@ h3 {
 
 .form input {
   border: 1px solid;
-  font-size: 1.5rem;
+  font-size: 2rem;
   padding: 0.5rem;
   margin: 1rem;
 }
@@ -306,6 +306,7 @@ h3 {
   color: black;
 }
 
+/* Media Queries */
 @media (min-width: 768px) {
   .form {
     width: max-content;
@@ -313,10 +314,44 @@ h3 {
 
   .nombre {
     flex-direction: row;
+    justify-content: space-between;
   }
 
   #mail {
     width: calc(100% - 2rem);
+  }
+}
+@media (min-width: 1600px) {
+  .form {
+    width: 40%;
+  }
+
+  .contenedorDatos {
+    width: 90%;
+    margin: auto;
+  }
+
+  input {
+    height: 3.5rem;
+  }
+
+  .checkbox label {
+    font-size: 3rem;
+  }
+  .checkbox select {
+    height: 3rem;
+    font-size: 2rem;
+  }
+
+  .contenedorMensaje label {
+    font-size: 3rem;
+  }
+  .contenedorMensaje textarea {
+    font-size: 2rem;
+  }
+
+  .form__buttons input {
+    padding: 1rem;
   }
 }
 /* Termina pagina contacto */
