@@ -50,3 +50,33 @@
 }
 
 /* Termine CSS Header */
+/* Meida Queries */
+
+@include tablet{
+    .navBackground {
+
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 0 2rem;
+
+    }
+
+    .navBackground img {
+        width: 130px;
+
+    }
+    .nav__toggle{
+        display: none;
+    }
+
+    .nav__list {
+        display: flex;
+
+    }
+
+    .nav__item {
+        font-size: 2.5rem;
+        padding-left: 2rem;
+    }
+}

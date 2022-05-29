@@ -85,6 +85,32 @@ a {
 }
 
 /* Termine CSS Header */
+/* Meida Queries */
+@media (min-width: 768px) {
+  .navBackground {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 2rem;
+  }
+
+  .navBackground img {
+    width: 130px;
+  }
+
+  .nav__toggle {
+    display: none;
+  }
+
+  .nav__list {
+    display: flex;
+  }
+
+  .nav__item {
+    font-size: 2.5rem;
+    padding-left: 2rem;
+  }
+}
 /* CSS hero */
 p {
   font-size: 1.5rem;
@@ -173,6 +199,44 @@ h3 {
 }
 
 /* Termina parrafos Index */
+/* Media Queries */
+@media (min-width: 768px) {
+  .contenedorParrafos {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 7rem;
+    margin-bottom: 4rem;
+  }
+
+  .der {
+    width: 40%;
+  }
+
+  .izq {
+    width: 40%;
+  }
+
+  .contenedorParrafos div p {
+    text-align: center;
+  }
+
+  .contenedorParrafos h3 {
+    text-align: center;
+  }
+
+  .botones {
+    font-size: 1.5rem;
+    font-weight: bold;
+    font-style: italic;
+  }
+
+  .der div {
+    display: inline-block;
+    position: relative;
+  }
+}
 /* Footer */
 .footer {
   background-image: linear-gradient(to bottom, rgba(255, 255, 255, 0), rgba(255, 255, 255, 0.19)), url(../img/imgFooter.jpg);
@@ -420,6 +484,29 @@ h3 {
   height: 200px;
 }
 
+/* Media Queries */
+@media (min-width: 768px) {
+  .grid_galeria {
+    display: grid;
+    grid-template-columns: repeat(3, auto);
+    grid-template-rows: repeat(3, auto);
+    justify-content: center;
+    align-items: center;
+    grid-gap: 20px;
+  }
+
+  .grid_galeria img {
+    width: 500px;
+  }
+
+  .contenedor__videos iframe {
+    align-self: center;
+    padding-top: 5rem;
+    justify-content: center;
+    height: 400px;
+    width: 700px;
+  }
+}
 /* Termina pagina Multimedia */
 /* Pagina Tarifario */
 .mainTarifario {
@@ -675,92 +762,6 @@ td {
     justify-content: center;
     gap: 5rem;
     margin-top: 2rem;
-  }
-}
-@media (min-width: 768px) {
-  .grid_galeria {
-    display: grid;
-    grid-template-columns: repeat(3, auto);
-    grid-template-rows: repeat(3, auto);
-    justify-content: center;
-    align-items: center;
-    grid-gap: 20px;
-  }
-
-  .grid_galeria img {
-    width: 500px;
-  }
-
-  .contenedor__videos iframe {
-    align-self: center;
-    padding-top: 5rem;
-    justify-content: center;
-    height: 400px;
-    width: 700px;
-  }
-
-  #nombre {
-    display: flex;
-  }
-
-  .contenedorParrafos {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: center;
-    margin-top: 7rem;
-    margin-bottom: 4rem;
-  }
-
-  .der {
-    width: 40%;
-  }
-
-  .izq {
-    width: 40%;
-  }
-
-  .contenedorParrafos div p {
-    text-align: center;
-  }
-
-  .contenedorParrafos h3 {
-    text-align: center;
-  }
-
-  .botones {
-    font-size: 1.5rem;
-    font-weight: bold;
-    font-style: italic;
-  }
-
-  .der div {
-    display: inline-block;
-    position: relative;
-  }
-
-  .navBackground {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 0 2rem;
-  }
-
-  .navBackground img {
-    width: 130px;
-  }
-
-  .nav__toggle {
-    display: none;
-  }
-
-  .nav__list {
-    display: flex;
-  }
-
-  .nav__item {
-    font-size: 2.5rem;
-    padding-left: 2rem;
   }
 }
 
