@@ -15,42 +15,7 @@
     
 
 
-    .informacion__contenido {
-        display: grid;
-        grid-template-columns: repeat(3, auto);
-        grid-template-rows: repeat(2, auto);
-        grid-template-areas:
-            "actividades temporada competencias"
-            "estadia estadia estadia"
-        ;
-    }
-
-    .informacion__actividades {
-        grid-area: actividades;
-    }
-
-    .informacion__temporada {
-        grid-area: temporada;
-    }
-
-    .informacion__competencias {
-        grid-area: competencias;
-    }
-
-    .informacion__intro {
-        width: 35%;
-
-    }
-
-    .informacion__estadia {
-
-        grid-area: estadia;
-    }
-
-    .informacion__estadia img {
-        width: 40%;
-
-    }
+    
 
     .contenedor__fotos {
         display: flex;
