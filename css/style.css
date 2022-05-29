@@ -213,9 +213,15 @@ h3 {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  background-attachment: fixed;
   height: max-content;
   padding-bottom: 4rem;
+}
+
+.form input {
+  border: 1px solid;
+  font-size: 1.5rem;
+  padding: 0.5rem;
+  margin: 1rem;
 }
 
 .contenedorForm {
@@ -228,7 +234,7 @@ h3 {
 .form {
   display: flex;
   flex-direction: column;
-  width: 60%;
+  width: 90%;
   position: relative;
   padding: 2rem;
   background-color: rgba(4, 165, 228, 0.63);
@@ -237,8 +243,20 @@ h3 {
 }
 
 .form label {
-  font-size: 2.5rem;
-  padding: 2rem;
+  font-size: 2rem;
+}
+
+.checkbox {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+}
+.checkbox select {
+  margin-top: 1rem;
+}
+
+#mail {
+  align-self: center;
 }
 
 .form__title {
@@ -246,6 +264,18 @@ h3 {
   padding: 3rem;
   color: aliceblue;
   font-weight: 400;
+}
+
+.contenedorDatos {
+  display: flex;
+  flex-direction: column;
+}
+
+.nombre {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
 .form__buttons input {
@@ -264,11 +294,31 @@ h3 {
   transition: all 0.5s ease;
 }
 
+.contenedorMensaje {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  margin-top: 1.5rem;
+}
+
 .form__buttons input:hover {
   background-color: #ffffff;
   color: black;
 }
 
+@media (min-width: 768px) {
+  .form {
+    width: max-content;
+  }
+
+  .nombre {
+    flex-direction: row;
+  }
+
+  #mail {
+    width: calc(100% - 2rem);
+  }
+}
 /* Termina pagina contacto */
 /* Pagina Multimedia */
 .encabezadoMultimedia {
@@ -590,7 +640,6 @@ td {
 
   #nombre {
     display: flex;
-    gap: 20rem;
   }
 
   .contenedorParrafos {

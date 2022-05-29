@@ -41,36 +41,34 @@
         <form action="" class="contenedorForm">
 
             <fieldset class="form">
-
-                <div id="nombre">
-                    <div>
-                        <label for="nombre">Nombre: </label>
-                        <input type="text" name="nombre">
+                <div class="contenedorDatos">
+                    <div class="nombre">
+                            <!-- <label for="nombre">Nombre: </label> -->
+                            <input type="text" name="nombre" placeholder="Nombre">
+                            <!-- <label for="apellido">Apellido: </label> -->
+                            <input type="text" name="apellido" placeholder="Apellido">
                     </div>
-                    <div>
-                        <label for="apellido">Apellido: </label>
-                        <input type="text" name="apellido">
-                    </div>
+                    
+                        <!-- <label for="email">E-Mail: </label> -->
+                    <input type="text" name="mail" placeholder="Correo Electrónico" id="mail">
                 </div>
-                <div>
-                    <label for="email">E-Mail: </label>
-                    <input type="text" name="mail" id="mail">
-                </div>
-                <div>
+                <!-- <div>
                     <label for="checkbox"> ¿Desea recibir descuentos únicos al mail?</label>
-
                     <input type="checkbox" name="acepta" value="1">
+                </div> -->
+                <div class="checkbox">
+                    <label for="tema">¿Por qué nos contacta?</label>
+                    <select name="tema" id="tema">
+                        <option value="tarifas">Tarifas</option>
+                        <option value="estadia">Estadía</option>
+                        <option value="otra">Otra consulta</option>
+                    </select>
                 </div>
-                <label for="tema">¿Por qué nos contacta?</label>
-                <select name="tema" id="tema">
-                    <option value="tarifas">Tarifas</option>
-                    <option value="estadia">Estadía</option>
-                    <option value="otra">Otra consulta</option>
-                </select>
-                <br>
-                <label for="mensaje">Mensaje: </label>
-                <br>
-                <textarea name="mensaje" id="mensaje" cols="30" rows="10"></textarea>
+                <div class="contenedorMensaje">
+                    <label for="mensaje" >Mensaje: </label>
+                    
+                    <textarea name="mensaje" id="mensaje" cols="30" rows="10"></textarea>
+                </div>
                 <div class="form__buttons">
                     <input type="submit" value="Enviar">
                     <input type="reset" value="Limpiar formulario">
