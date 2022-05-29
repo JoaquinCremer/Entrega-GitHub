@@ -96,20 +96,21 @@ h3 {
     .contenedorParrafos {
         display: flex;
         flex-direction: row;
-        justify-content: space-between;
+        justify-content: center;
+        gap: 5rem;
         align-items: center;
         margin-top: 7rem;
-        margin-bottom: 4rem;
+        margin-bottom: 4rem;    
     }
 
 
     .der {
-        width: 40%;
+        width: 34%;
 
     }
 
     .izq {
-        width: 40%;
+        width: 34%;
     }
 
     .contenedorParrafos div p {
