@@ -448,7 +448,7 @@ h3 {
 #tablaTarifario {
   width: 80%;
   height: 700px;
-  font-size: 2rem;
+  font-size: 1.3rem;
   text-align: center;
   border-collapse: collapse;
   margin-top: 3rem;
@@ -494,6 +494,18 @@ td {
   font-weight: bold;
 }
 
+/* Media Queries */
+@media (min-width: 768px) {
+  #tablaTarifario {
+    font-size: 2.2rem;
+  }
+  #tablaTarifario th {
+    border: none;
+  }
+  #tablaTarifario tr, #tablaTarifario td {
+    border: none;
+  }
+}
 /* Termina css Tarifario */
 /* Pagina Informacion */
 .informacion__title {
@@ -605,14 +617,6 @@ td {
 }
 
 @media (min-width: 768px) {
-  #tablaTarifario th {
-    border: none;
-  }
-
-  #tablaTarifario tr, td {
-    border: none;
-  }
-
   .informacion__contenido {
     display: grid;
     grid-template-columns: repeat(3, auto);
